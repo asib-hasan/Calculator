@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+.calBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /*should learn */
+    width: 400px;
+    height: 500px;
+}
+
+table{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border: 2px solid;
+}
+td{
+    text-align: center;
+    color: #fff1;
+    border: 2px solid #191919;
+}
+h1{
+    text-align: center;
+    margin: 11px 610px;
+    background-color: rgb(46, 169, 190);
+}
+input[type="button"] {
+    width: 90px;
+    height: 80px;
+    color: #fff;
+    background-color: black;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+input[type="button"]:hover{
+    background-color: aqua;
+}
+input[type="text"]{
+    width: 400px;
+    height: 80px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
